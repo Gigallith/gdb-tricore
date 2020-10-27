@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!-- Copyright (C) 2007-2020 Free Software Foundation, Inc.
+
+     Copying and distribution of this file, with or without modification,
+     are permitted in any medium without royalty provided the copyright
+     notice and this notice are preserved.  -->
+
+<!DOCTYPE feature SYSTEM "gdb-target.dtd">
+<feature name="org.gnu.gdb.tricore.fpu">
+  <reg name="FPU_TRAP_CON" bitsize="32" type="ieee_single" regnum="0"/>
+  <reg name="FPU_TRAP_PC" bitsize="32" type="ieee_single"/>
+  <reg name="FPU_TRAP_OPC" bitsize="32" type="ieee_single"/>
+  <reg name="FPU_TRAP_SRC1" bitsize="32" type="ieee_single"/>
+  <reg name="FPU_TRAP_SRC2" bitsize="32" type="ieee_single"/>
+  <reg name="FPU_TRAP_SRC3" bitsize="32" type="ieee_single"/>
+  <reg name="FPU_ID" bitsize="32" type="ieee_single"/>
+</feature>
